@@ -1,0 +1,57 @@
+
+\begin{Frame}{Ideas : Inverted Von Neumann}
+  \begin{columns}[t]
+	\begin{column}{\BW}
+      \begin{block}{Inverted model}
+      \Image[4cm]{InvertedVonNeumann1/VonNeuman.pdf}
+      \end{block}
+      \begin{block}{}
+{\footnotesize  \begin{tabular}{|p{2.8cm}|p{2.8cm}|}\hline
+\rowcolor{green}        CPU                   & Memory \\\hline
+\cellcolor{red} control flow, address compute & answer CPU          \\
+\cellcolor{red} application workload,Mem I/O  & \\ \hline
+\cellcolor{green} control flow, address compute & \cellcolor{green}answer CPU (less), application workload\\\hline
+         \end{tabular}
+}
+      \end{block}
+      % \begin{enumerate} \small
+
+      % \item CPU does : loop control, address compute, application compute,
+      %   intensive load store. Memory does : 
+        
+      % \item CPU does : loop control, address compute. Memory does :
+      %   application compute
+        
+      % \end{enumerate}
+	\end{column}
+
+	\begin{column}{\BW}
+      \begin{block}{Von neuman}
+        \begin{itemize}
+        \item Stored instructions
+        \item Bottleneck = limited bandwidth (data, insn, L1, L2, L3)
+        \item Programm with data choregraphy
+        \end{itemize}
+      \end{block}
+      \begin{block}{Non von Neumann}
+        \begin{itemize}
+        \item Break model and bottleneck
+        \item Problems
+          \begin{itemize}
+          \item Send insns
+          \item Synchronize
+          \item Data layout
+          \end{itemize}
+        \end{itemize}
+      \end{block}
+	\end{column}
+  \end{columns}
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% mode: flyspell
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:

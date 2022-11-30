@@ -1,0 +1,36 @@
+%
+\begin{Frame}{Architectures :  Near Sensor Computing }
+  \begin{columns}[t]
+    \begin{column}{\BW} % Colonne gauche
+      \begin{block}{Near Sensor Computing}
+        \begin{itemize}
+        \item 1 sensor, e.g. a camera
+        \item 1 automaton to send instructions
+        \item 1 IMPACT memory, 
+        \item special operators (stochastics ?)
+        \end{itemize}
+      \end{block} 
+    \end{column}
+    
+    \begin{column}{\BW} % Colonne droite
+      \begin{block}{Applications}
+        \begin{itemize}
+        \item Motion detection 
+        \item Pattern detection
+        \item Other
+        \end{itemize}
+      \end{block}   
+    \end{column}
+  \end{columns}  
+      \begin{block}{Illustration : edge computing}
+        \Image[6.5cm]{NearSensor/NearSensorComputing.pdf}
+      \end{block}   
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+

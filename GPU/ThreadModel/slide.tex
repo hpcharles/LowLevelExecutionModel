@@ -1,0 +1,26 @@
+\begin{Frame}{GPU : ThreadModel}
+ \begin{columns}[t]
+  \begin{column}{\BW}
+    \begin{block}{CPU side}
+      \begin{itemize}
+      \item Tile dataset (in cuda code)
+      \item Map data on compute grid
+      \item Iterate on memory move / compute
+      \end{itemize}
+    \end{block}
+  \end{column}
+  \begin{column}{\BW}
+    \begin{block}{}
+      \Image[\BW]{ThreadModel/DataThread}
+    \end{block}
+  \end{column}
+
+ \end{columns}
+\end{Frame}
+%% Local Variables:
+%% mode: latex
+%% mode: flyspell
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:

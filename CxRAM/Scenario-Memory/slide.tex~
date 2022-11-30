@@ -1,0 +1,43 @@
+%
+\begin{Frame}{Intro : Classical Memory}
+  \begin{columns}[t]
+    \begin{column}{7cm} % Colonne gauche
+      \begin{block}{Memory technology}
+        \begin{description}[DRAM]
+        \item[\href{https://en.wikipedia.org/wiki/Dynamic_random-access_memory}{DRAM}]
+          Dense, but need refresh (external)
+        \item[\href{https://en.wikipedia.org/wiki/Static_random-access_memory}{SRAM}]
+          Less dense but faster (caches)
+        \item[Other] RRAM, STTRAM, \ldots
+        \end{description}
+      \end{block} 
+      \begin{block}{Memory access}
+        \begin{description}[LOAD]
+        \item[LOAD] data or insn
+          \begin{enumerate}
+          \item Assert address
+          \item Read data
+          \end{enumerate}
+        \item[STORE] data
+          \begin{enumerate}
+          \item Assert address \& data
+          \end{enumerate}
+        \end{description}
+      \end{block} 
+    \end{column}
+    
+    \begin{column}{5cm} % Colonne droite
+      \begin{block}{Memory schematic}
+        \Image[5]{Memory/ClassicalMemory.pdf}
+      \end{block}   
+    \end{column}
+  \end{columns}  
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+

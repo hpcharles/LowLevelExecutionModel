@@ -1,0 +1,43 @@
+\begin{Frame}{CSRAM : Resultats AES}
+  \begin{columns}[t]
+	\begin{column}{5cm}
+      \begin{block}{Advanced Encryption Standard}
+        \Image[5cm]{ResultatsAES/AES-Algo.png}        
+      \end{block}
+	\end{column}
+	\begin{column}{8cm}
+      \begin{block}{Illustration}
+        \begin{itemize}
+        \item  Sequential Implementation : 8-bit data 
+        \item Dedicated Instruction for certain processor
+          \begin{itemize}
+          \item AES-New Instruction for Intel
+          \item ARMv8 Cryptography extension
+          \end{itemize}
+        \item C-SRAM Implementation
+          \begin{itemize}
+          \item Use of new “shuffle” C-SRAM operation
+          \item Use of the vectorized Logic opeartions (XOR, AND, SHIFT)	
+          \end{itemize}
+        \end{itemize}
+      \end{block}
+      \begin{alertblock}{}\footnotesize
+        \begin{tabular}{|l | r r r|}\hline
+              & C-SRAM    & Scalar        & Recryptor [1]\\\hline{}
+Cycles        & 385       & 32544 (x84)   & 726 (x1,9)\\
+nJ            & 4,77      & 224,35 (x47)  & 7,05 (x1,5) \\
+M. Access     & 10 writes & 9529 w 4440 r & n.a\\\hline
+        \end{tabular}        
+      \end{alertblock}
+	\end{column}
+\end{columns}
+
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% mode: flyspell
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:

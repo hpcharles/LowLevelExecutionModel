@@ -1,0 +1,8 @@
+qemu-riscv32 Add-With-Specialization 3 25
+// Compilette for simple addition between 1 variable with
+// code specialization on value = 3
+0x19008 : RV32I_MV_RI_I_32_1
+0x1900c : RV32I_ADD_RRR_I_32_1
+0x19010 : RV32I_MV_RR_I_32_1
+0x19014 : RV32I_RET__I_32_1
+3 + 25 = 28

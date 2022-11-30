@@ -1,0 +1,74 @@
+\begin{frame}[fragile]\frametitle{CSRAM : Resultats Motion Detection}
+  \begin{columns}[t]
+    \begin{column}{3cm}
+      \begin{block}{}
+        \begin{tabular}{c}
+          \Image[2]{ResultatsMotionDetection/a.png}\\
+          - \\
+          \Image[2]{ResultatsMotionDetection/b.png}\\        
+          = \\
+          \Image[2]{ResultatsMotionDetection/c.png}\\        
+        \end{tabular}
+      \end{block}
+	\end{column}
+	\begin{column}{5cm}
+      \begin{block}{Code examples}
+        \begin{lstlisting}[tabsize=2,basicstyle=\tiny]
+void moinsImageStd()
+{
+  int l, c;
+  
+  for (l = 0; l < HEIGHT; ++l)
+    for (c = 0; c < WIDTH; ++c)
+      Out[l][c] = A[l][c] - B[l][c];
+}
+\end{lstlisting}
+
+\begin{lstlisting}[tabsize=2,basicstyle=\tiny]
+void moinsImageSmart()
+{
+  int l;
+  
+    for (l = 0; l < HEIGHT; ++l)
+      Out[l] = A[l] - B[l];
+} // Out A and B are array of vectors
+\end{lstlisting}
+\end{block}
+\begin{alertblock}{Energy gains}
+x35 Energy Reduction comparing to Scalar  
+\end{alertblock}
+\end{column}
+
+\begin{column}{6cm}
+  \begin{block}{Evaluation}
+    \begin{itemize}
+    \item Sequential Implementation : 8-bit pixels 
+    \item SIMD : 128-bit XMM registers
+    \item C-SRAM Implementation : Use of the vectorized Arithmetic operations (SUB)
+    \end{itemize}
+  \end{block}
+  \begin{alertblock}{Speedup gains}
+\tiny
+\begin{tabular}{r r r r}
+Image size & C-SRAM & Scalar &SIMD \\
+16x16 & 48  & x166 & x12 \\
+qqVGA & 360 & x1654 & x66 \\
+QVGA  & 720  & x3307 & x130 \\
+VGA   & 1440  & x6614 & X260 \\
+\end{tabular}
+
+
+  \end{alertblock}
+  
+\end{column}
+
+  \end{columns}
+\end{frame}
+
+%% Local Variables:
+%% mode: latex
+%% mode: flyspell
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:

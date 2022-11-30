@@ -1,0 +1,62 @@
+\begin{frame}[fragile]\frametitle{CSRAM : Database Results}
+\begin{columns}[t]
+  \begin{column}{3cm}
+    \begin{block}{Database}\tiny
+      \begin{tabular}{l l r}
+        Id & Status & Credit \\
+        Henri-Pierre C & Not paid & 1600\\
+        Jean-Philippe  & Not paid & 1300\\
+        Bastien G. & Paid & 1200\\
+        Maha K & Not paid & 1400\\
+        Valentin E & Paid& 1700\\ 
+        Roman G     & Not paid& 1900\\ \\
+      \end{tabular}
+
+\textit{UPDATE magasin SET credit = 0 WHERE status = Paid}
+    \end{block}
+  \end{column}
+
+  \begin{column}{5cm}
+    \begin{block}{Code}
+      \begin{lstlisting}
+oid updateDataBase()
+{
+   foreach record
+      If status = 'Paid'
+          credit = 0
+ }        
+      \end{lstlisting}
+      \begin{lstlisting}
+void updateDataBase()
+{
+   pattern = CreateDBPattern("Paid")
+   Update(pattern, 0)
+ }
+      \end{lstlisting}
+    \end{block}
+  \end{column}
+  
+  \begin{column}{5cm}
+    \begin{block}{Evaluation}
+      \begin{description}
+      \item[Sequential] Database scan for each values
+      \item[C-SRAM] 2 CSRAM instruction
+      \end{description}
+   \end{block}
+    \begin{alertblock}{Gains : Multi-line selection}
+      \begin{description}
+      \item[Speed] x 1200
+      \item[Energy] x 5 (80\%)
+      \end{description}
+    \end{alertblock}
+  \end{column}
+\end{columns}
+\end{frame}
+
+%% Local Variables:
+%% mode: latex
+%% mode: flyspell
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:

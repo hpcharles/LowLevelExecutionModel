@@ -1,0 +1,32 @@
+\begin{Frame}{HybroGen : Profiling}
+ \begin{columns}[t]
+  \begin{column}{\BWThree}
+    \begin{block}{Strategy}
+      \begin{itemize}
+        \item Profiling on a desktop machine
+        \item With different datasets
+        \item With and without optimization
+        \item Strategy :
+          \begin{itemize}
+        \item \texttt{gcc -O0 -pg -o Kernels Kernels.c}
+        \item \texttt{./Kernels dataset}
+        \item \texttt{gprof ./Kernels}
+          \end{itemize}
+      \end{itemize}
+    \end{block}
+  \end{column}
+  \begin{column}{\BWEight}
+    \begin{block}{Result}
+\lstinputlisting[lastline=20]{HybroGen/Profiling/gprof.txt}
+    \end{block}
+  \end{column}
+
+ \end{columns}
+\end{Frame}
+%% Local Variables:
+%% mode: latex
+%% mode: flyspell
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:

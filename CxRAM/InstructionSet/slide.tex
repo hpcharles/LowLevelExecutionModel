@@ -1,0 +1,18 @@
+\begin{Frame}{Instructions formats: release 2.2 width 64 }
+
+\footnotesize\begin{tabular}{|llllllllll|}\hline
+ & & Opcode & &Dest&&Src2&&Src1&\\ \hline
+R-type&NE/6&opcode/8&RD/1&@dest/15&Mis./2&R2/1&@src2/15&R1/1&@src1/15\\
+ I-type&{|c|}{NE/6}&{|c|}{opcode/8}&{|c|}{RD/1}&{|c|}{@dest/15}&{|c|}{Mis./2}&{|c|}{imm[15:0]/16}&{|c|}{R1/1}&{|c|}{@src1/15}\\
+ U-type&{|c|}{NE/6}&{|c|}{opcode/8}&{|c|}{RD/1}&{|c|}{@dest/15}&{|c|}{Mis./2}&{|c|}{imm[31:0]/32}\\\hline
+\end{tabular}
+\begin{itemize}
+\item R-type: When all data used by the instruction are located in the memory\item I-type: When the instruction operates on a immediate value and a memory value\item U-type: When the instruction apply an immediate value directly to the memory\end{itemize}
+\end{Frame}
+%% Local Variables:
+%% mode: latex
+%% mode: flyspell
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:

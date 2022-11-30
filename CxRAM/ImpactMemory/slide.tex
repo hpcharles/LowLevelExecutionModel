@@ -1,0 +1,38 @@
+%
+\begin{Frame}{Intro : CSRAM Memory}
+  \begin{columns}[t]
+    \begin{column}{\BW} % Colonne gauche
+      \begin{block}{Memory with}
+        \begin{itemize}
+        \item Bitcell 2 ports
+        \item Vector like alu
+        \item Multi-line selector
+        \item No internal instruction execution
+        \end{itemize}
+      \end{block} 
+      \begin{alertblock}{Design choices}
+        \begin{itemize}
+        \item Minimize CPU modification
+        \item Only one instruction sequence (CPU master)
+        \end{itemize}
+      \end{alertblock} 
+    \end{column}
+    
+    \begin{column}{\BW} % Colonne droite
+      \begin{block}{IMPACT memory}
+        \Image[5cm]{ImpactMemory/ImpactMemory.pdf}
+      \end{block}   
+      \begin{block}{Technology}
+        SRAM technology (FDSOI 22nm)
+      \end{block}   
+    \end{column}
+  \end{columns}  
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+

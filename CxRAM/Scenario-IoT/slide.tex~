@@ -1,0 +1,42 @@
+%
+\begin{Frame}{Architectures : IoT}
+  \begin{columns}[t]
+    \begin{column}{\BW} % Colonne droite
+      \begin{block}{Illustration IoT}
+        \Image[6.5]{IoT/IoT-Arch.png}
+      \end{block}   
+      \begin{block}{}
+        \begin{itemize}
+        \item Data parallelism in IMPACT
+        \item Loop, control, address computation in code
+        \end{itemize}
+      \end{block}
+    \end{column}
+
+    \begin{column}{\BW} % Colonne gauche
+      \begin{block}{IoT device}
+        \begin{itemize}
+        \item ``In order'' simple core (RISC-V/ROCKET, CORTEX M)
+        \item 1 IMPACT memory, STD operators
+        \item Instruction interleaving
+        \end{itemize}
+      \end{block} 
+      \begin{block}{Applications}
+        \begin{itemize}
+        \item Edge IA
+        \item Image analysis
+        \item In memory crypto
+        \end{itemize}
+      \end{block} 
+    \end{column}
+    
+  \end{columns}  
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+

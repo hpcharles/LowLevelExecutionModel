@@ -1,0 +1,34 @@
+\begin{Frame}{Introduction : CPU generic  algorithm}
+ \begin{columns}[t]
+  \begin{column}{0.5\textwidth}
+    \begin{block}{CPU Algorithm}
+      \begin{itemize}
+      \item Forever do :
+        \begin{enumerate}
+        \item Fetch instruction (IF)
+        \item Increment PC
+        \item Decode instruction (DE)
+        \item Execute (EXE)
+        \item Store result (WB)
+        \end{enumerate}
+      \end{itemize}
+    \end{block}
+  \end{column}
+  \begin{column}{0.5\textwidth}
+    \begin{block}{Comments}
+      \begin{enumerate}
+      \item Algorithm duration = sum of each instructions
+      \item Irregular duration : memory access, complex 
+      \item Each step can be divided in sub steps
+      \end{enumerate}
+    \end{block}
+  \end{column}
+ \end{columns}
+\end{Frame}
+%% Local Variables:
+%% mode: latex
+%% mode: flyspell
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:

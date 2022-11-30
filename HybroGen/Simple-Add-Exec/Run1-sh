@@ -1,0 +1,4 @@
+gre061041:CodeExamples/>qemu-riscv32 Add-With-Specialization 3 40
+// Compilette for simple addition between 1 variable with
+// code specialization on value = 3
+3 + 40 = 43

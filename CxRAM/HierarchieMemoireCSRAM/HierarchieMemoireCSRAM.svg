@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="HierarchieMemoireCSRAM.svg">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4583"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#f40000;stroke-width:1pt;stroke-opacity:1;fill:#f40000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4580"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#f40000;stroke-width:1pt;stroke-opacity:1;fill:#f40000;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart-2"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4580-3"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#f40000;fill-opacity:1;fill-rule:evenodd;stroke:#f40000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-7"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4583-5"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#f40000;fill-opacity:1;fill-rule:evenodd;stroke:#f40000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart-2-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4580-3-3"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#f40000;fill-opacity:1;fill-rule:evenodd;stroke:#f40000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-7-2"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4583-5-0"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#f40000;fill-opacity:1;fill-rule:evenodd;stroke:#f40000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.90509668"
+     inkscape:cx="435.53542"
+     inkscape:cy="424.1366"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1360"
+     inkscape:window-height="768"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4485" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#0000bf;fill-opacity:0.53768843;stroke:#000000;stroke-width:0.28285146px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 42.333333,191.16667 3.3333332e-7,90.625004 H 84.666667 L 42.333333,191.16667"
+       id="path4517"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="35.507084"
+       y="171.73633"
+       id="text4495"><tspan
+         sodipodi:role="line"
+         id="tspan4493"
+         x="35.507084"
+         y="171.73633"
+         style="stroke-width:0.26458332">RF</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="36.098778"
+       y="153.76038"
+       id="text4499"><tspan
+         sodipodi:role="line"
+         id="tspan4497"
+         x="36.098778"
+         y="153.76038"
+         style="stroke-width:0.26458332">L1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="36.140121"
+       y="135.85419"
+       id="text4507"><tspan
+         sodipodi:role="line"
+         id="tspan4505"
+         x="36.140121"
+         y="135.85419"
+         style="stroke-width:0.26458332">L2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="36.034184"
+       y="117.8033"
+       id="text4511"><tspan
+         sodipodi:role="line"
+         id="tspan4509"
+         x="36.034184"
+         y="117.8033"
+         style="stroke-width:0.26458332">L3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="26.722092"
+       y="99.83252"
+       id="text4515"><tspan
+         sodipodi:role="line"
+         id="tspan4513"
+         x="26.722092"
+         y="99.83252"
+         style="stroke-width:0.26458332">DRAM</tspan></text>
+    <g
+       id="g4542"
+       transform="translate(-18.520833,-23.8125)">
+      <path
+         style="opacity:1;vector-effect:none;fill:#008000;fill-opacity:0.53768843;stroke:#000000;stroke-width:2.89133859;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none"
+         d="M 286 422.51953 L 412.31641 722.51953 L 50 722.51953 L 50 802.51953 L 446 802.51953 L 520 802.51953 L 520 722.51953 L 479.68359 722.51953 L 606 422.51953 L 286 422.51953 z "
+         transform="matrix(0.26458333,0,0,0.26458333,18.520833,23.8125)"
+         id="rect4491" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4483"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,1.357338,3.958474)"><flowRegion
+         id="flowRegion4485"><rect
+           id="rect4487"
+           width="120"
+           height="60"
+           x="100"
+           y="732.51971" /></flowRegion><flowPara
+         id="flowPara4489">CPU</flowPara></flowRoot>    <path
+       style="fill:#0000bf;fill-opacity:0.53768843;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 37.041666,188.52083 v 0"
+       id="path4519"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="opacity:1;vector-effect:none;fill:#008000;fill-opacity:0.53768843;stroke:#000000;stroke-width:2.89133859;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none"
+       id="rect4531"
+       width="0"
+       height="0"
+       x="0"
+       y="0"
+       transform="scale(0.26458333)" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4567"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion4569"><rect
+           id="rect4571"
+           width="700"
+           height="500"
+           x="-80"
+           y="262.51968" /></flowRegion><flowPara
+         id="flowPara4573"></flowPara></flowRoot>    <path
+       style="fill:none;stroke:#f40000;stroke-width:0.865;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
+       d="m -2.6458333,117.08333 c 0,58.20834 0,58.20834 0,58.20834"
+       id="path4575"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-172.06609"
+       y="-11.713715"
+       id="text5028"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan5026"
+         x="-172.06609"
+         y="-11.713715"
+         style="stroke-width:0.26458332;fill:#ff0000;fill-opacity:1">Data path</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4483-3"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,70.703859,-59.804055)"><flowRegion
+         id="flowRegion4485-1"><rect
+           id="rect4487-4"
+           width="204.8699"
+           height="55.038822"
+           x="100"
+           y="732.51971" /></flowRegion><flowPara
+         id="flowPara4489-9">CSRAM</flowPara></flowRoot>  </g>
+</svg>

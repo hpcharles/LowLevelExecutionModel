@@ -1,0 +1,39 @@
+%
+\begin{Frame}{Von Neuman broked, what about Amhdal Law's ?}
+  \begin{alertblock}{Ahmdal law's:   ``Speedup is limited by the sequential part''}
+  \end{alertblock}
+  \begin{columns}[t]
+    \begin{column}{\BW} % Colonne droite
+      \begin{block}{Classical approach}
+        \Image[3cm]{BrokenAmdahlLaw/AmdahlLaw.pdf}
+      \end{block}   
+
+      \begin{block}{Programmer approach}
+        \begin{itemize}
+        \item Has to maximize parallel part
+        \item Deal with data ``choregraphy'' between CPU and GPU.
+        \end{itemize}
+      \end{block}
+
+    \end{column}
+    \begin{column}{\BW} % Colonne gauche
+      \begin{block}{CSRAM approach}
+        \Image[3cm]{BrokenAmdahlLaw/AmdahlLaw-IMPACT.pdf}
+      \end{block}   
+      \begin{block}{Programmer approach}
+        \begin{itemize}
+        \item Ease to interlace scalar instruction and IMPACT instructions
+        \item Do not move data
+        \end{itemize}
+      \end{block}
+    \end{column}
+  \end{columns}  
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+

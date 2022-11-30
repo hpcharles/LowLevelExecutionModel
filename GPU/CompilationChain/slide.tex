@@ -1,0 +1,33 @@
+\begin{Frame}{GPU : CompilationChain}
+ \begin{columns}[t]
+  \begin{column}{\BW}
+    \begin{block}{CUDA side}
+      \begin{itemize}
+      \item nvcc : From CUDA program to PTX (GPU assembly)
+      \item gcc : C to binary for the host
+      \end{itemize}
+    \end{block}
+  \end{column}
+  \begin{column}{\BW}
+    \begin{block}{GPU Driver side}
+      \begin{itemize}
+      \item CPU : Launch host process on CPU
+      \item GPU driver : Compile PTX code to binary
+      \item CPU : copy data from host mem to GPU mem
+      \item CPU : map dataset and launch GPU execution
+      \item GPU : run GPU code
+      \item CPU : copy data from GPU mem to CPU mem
+      \end{itemize}
+      % \Image{CompilationChain/CompilationChain}
+    \end{block}
+  \end{column}
+
+ \end{columns}
+\end{Frame}
+%% Local Variables:
+%% mode: latex
+%% mode: flyspell
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:

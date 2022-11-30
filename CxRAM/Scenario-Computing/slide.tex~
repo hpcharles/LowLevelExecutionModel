@@ -1,0 +1,35 @@
+%
+\begin{Frame}{Architectures : Computing}
+  \begin{columns}[t]
+    \begin{column}{\BW} % Colonne gauche
+      \begin{block}{Computing node}
+        \begin{itemize}
+        \item Complex core (RISC-V/BOOM, CORTEX A)
+        \item Multiple IMPACT memory, STD operators
+        \item Dynamic RAM
+        \end{itemize}
+      \end{block} 
+      \begin{block}{Applications}
+        \begin{itemize}
+        \item Database
+        \item Convolutions
+        \item DNA matching
+        \end{itemize}
+      \end{block} 
+    \end{column}
+    
+    \begin{column}{\BW} % Colonne droite
+      \begin{block}{Illustration: complex hierarchy}
+        \Image[5]{Computing/Computing-Arch.png}
+      \end{block}   
+    \end{column}
+  \end{columns}  
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+
